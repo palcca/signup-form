@@ -141,6 +141,7 @@ input:focus{
 }
 
 button{
+    box-shadow: 3px 3px 3px rgb(255, 255, 255, 20%) inset;;
     color: white;
     font-weight: 900;
     margin: 20px 30px;
@@ -148,6 +149,10 @@ button{
     padding: 7px 25px;
     border-radius: 5px;
     background-color: #596D48;
+}
+
+button:active{
+    box-shadow: 3px 3px 3px rgb(0, 0, 0, 50%) inset;
 }
 
 form p{
