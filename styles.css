@@ -160,3 +160,10 @@ form p span{
     font-weight: 900;
     color:#596d48;
 }
+
+.noMatch{
+    background-color: rgn(255,0,0, 20%);
+    outline: none;
+    border:1px solid rgba(255, 0, 0, 0.5);
+    box-shadow: 1px 1px 1px rgba(255, 0, 0, 0.2);
+}

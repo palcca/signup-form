@@ -28,46 +28,49 @@
                 </strong>
             </div>
             <div id="formContainer">
-                <form action="" method="post">
+                <form action="#" method="post" onsubmit="return comparePassword()">
                     <div id="userdatabg">
                         <p>Let's do this!</p>
                         <fieldset name="fullname">
                             <div>
                                 <label for="firstname">FIRST NAME</label>
-                                <input type="text" name="firstname" minlength="3">
+                                <input type="text" name="firstname" minlength="3" required>
                             </div>
                             <div>
                                 <label for="lastname">LAST NAME</label>
-                                <input type="text" name="lastname" minlength="3">
+                                <input type="text" name="lastname" minlength="3" required>
                             </div>
                         </fieldset>
                         <fieldset name="contacts">
                             <div>
                                 <label for="email">EMAIL</label>
-                                <input type="email" name="email" minlength="3">
+                                <input type="email" name="email" minlength="3" required>
                             </div>
                             <div>
                                 <label for="phone">PHONE NUMBER</label>
                                 <input type="text" name="phone" minlength="3">
                             </div>
                         </fieldset>
-                        <fieldset name="contacts">
+                        <fieldset class="passwordContainer"name="password">
                             <div>
                              <label for="password">PASSWORD</label>
-                              <input type="password" name="password" minlength="3">
+                              <input class="passwordOne" type="password" name="password" minlength="3" required>
+                              <div #id>
                             </div>
                             <div>
                                 <label for="password">CONFIRM PASSWORD</label>
-                                <input type="password" name="password" minlength="3">
+                                <input class="passwordTwo" type="password" name="password" minlength="3" required>
                             </div>
                         </fieldset>
                     </div>
-                    <button type="submit">Create account</button>
+                    <button id="submitBtn" type="submit">Create account</button>
                     <p>Already have an account? <span>Log in</span></p>
                 </form>
             </div>
 
         </div>
     </div>
+
+<script src="script.js"></script>
 </body>
 </html>
