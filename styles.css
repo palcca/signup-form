@@ -18,14 +18,13 @@ html{
 
 body{
     
-    width: 50vw;
     display: flex;
     justify-content:center;
     background-color: darkgrey ;
 
 }
 #bg{
-    width: 960px;
+
     height: auto;
     display: flex;
 }
