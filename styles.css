@@ -131,13 +131,10 @@ input{
     border: 1px solid #E5E7EB;
 }
 
-input:required{
-    border-color: red;
-    box-shadow:1px 1px 1px rgb(255, 0, 0, 50%);
-}
-
 input:focus{
-    border-color: blue;
+    outline: none;
+    border:1px solid rgb(0, 0, 255, 50%);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
 
 button{
